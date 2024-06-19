@@ -1,0 +1,36 @@
+.Toy {
+    text-align: center;
+    background-color: whitesmoke;
+  }
+  
+  .grid {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .robot {
+    font-weight: bold;
+    color: red;
+  }
+
+  .report-message {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  
